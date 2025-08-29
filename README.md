@@ -1,16 +1,33 @@
-# management
+# Employee Management (Flutter)
 
-A new Flutter project.
+A pixel-perfect Flutter app to manage employees with local persistence and BLoC.  
+Supports Android and Web (Firebase Hosting).
 
-## Getting Started
+**Live demo:** https://employee-management-c7391.web.app/  
+**GitHub:** https://github.com/Pavithran-python/Employee-Management
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add / Edit / Soft Delete (swipe) with **Undo**
+- Local DB: `sqflite` (mobile) and `sqflite_common_ffi_web` (web)
+- BLoC state management
+- Custom calendar popup with quick actions: **Today**, **Next Monday**, **Next Tuesday**, **After 1 week**, and **No date** (for end date)
+- “**Today**” label when a date equals the current day
+- Responsive sizing via `AppSize` / `AppSizes`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ▶️ Run locally
+
+### Prerequisites
+- Flutter (stable) 3.x
+- Dart 3.x
+- (For web deploy) Firebase CLI and a Firebase project
+
+### Get the code
+**Option A (Git):**
+```bash
+git clone https://github.com/Pavithran-python/Employee-Management.git
+cd Employee-Management
